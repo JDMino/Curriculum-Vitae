@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+    /* DISEÑO GENERAL */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: calc();
+    scroll-behavior: smooth;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: #0052cc;
+    color: whitesmoke;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    padding: 10px;
+    background-color: #0080ff;
+    outline-style: solid;
+    outline-color: #0080ff;
+    outline-width: 30px;
+    border-radius: 1px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+a {
+    color: whitesmoke;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+p {
+    margin: 5px;
+    padding: 5px;
+}
+
+.infopersonal {
+    margin: 5px;
+    padding: 15px;
+    background-color: #4775d1;
+    border-radius: 5px;
+}
+
+img {
+    border-radius: 100px;
+}
+
+.experiencia {
+    margin: 5px;
+    padding: 15px;
+    background-color: #3333cc;
+    border-radius: 5px;
+}
+
+.habilidades {
+    margin: 5px;
+    padding: 15px;
+    background-color: #0000ff;
+    border-radius: 5px;
+}

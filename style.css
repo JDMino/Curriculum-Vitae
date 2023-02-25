@@ -26,6 +26,7 @@ header {
     outline-color: #0080ff;
     outline-width: 30px;
     border-radius: 1px;
+    align-items: baseline;
 }
 
 nav ul li {
@@ -45,6 +46,10 @@ a:visited {
     color: whitesmoke;
 }
 
+h1:hover, a:hover, h3:hover {
+    color: #b8502e;
+}
+
 p {
     margin: 5px;
     padding: 5px;
@@ -57,8 +62,20 @@ p {
     border-radius: 5px;
 }
 
+.sobre-mi {
+    display: flex;
+    align-items: center;
+}
+
 img {
     border-radius: 100px;
+}
+
+.contacto {
+    margin: 5px;
+    padding: 15px;
+    background-color: #2e5cb8;
+    border-radius: 5px;
 }
 
 .experiencia {
@@ -74,3 +91,26 @@ img {
     background-color: #0000ff;
     border-radius: 5px;
 }
+
+/* DISEÑO PARA MOVILES */
+@media only screen and (max-width: 600px) {
+    
+    header {
+        font-size: 12px;
+    }
+    
+    .infopersonal {
+        margin: 5px;
+        padding: 15px;
+        background-color: #4775d1;
+        border-radius: 5px;
+    }
+    
+    .sobre-mi {
+        display: block;
+    }
+
+    figure {
+    text-align: center;
+    }
+  }

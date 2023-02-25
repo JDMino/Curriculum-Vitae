@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
+    <link rel="shortcut icon" href="/icono.ico">
     <link rel="stylesheet" href="style.css">
     <script src="js/all.min.js"></script>
 </head>
@@ -41,42 +42,50 @@
         <br>
         <h5>Desarrollador web || ACCENTUR - a distancia</h5>
         <h6>Diciembre 2021 - Actual</h6>
-        <br>        
-        <ul>
+        <br>
+        <button class="boton-detalles" onclick="mostrar();">Mostrar detalles</button>
+        <ul id="detalles">
             <li>Apoyo técnico al ciclo completo del proyecto, desde el briefing inicial, pasando por wireframes, diseño web, maquetación, desarrollo, programación y la publicación final.</li>
             <li>Participación en proyectos de software libre.</li>
             <li>Trabajo con distintas bases de datos y contextos back-end y front-end.</li>
+            <button class="boton-detalles" onclick="ocultar();">Ocultar detalles</button>
         </ul>
         <br>
         <h5>Desarrollador web || STARTUP BOOTCAMP - a distancia</h5>
         <h6>Marzo 2015 - Agosto 2021</h6>
         <br>
-        <ul>
+        <button class="boton-detalles" onclick="mostrar2();">Mostrar detalles</button> 
+        <ul id="detalles-2">
             <li>Rediseño de sitios web para mejorar la navegación y su atractivo visual.</li>
             <li>Creación de páginas de destino, paneles de control y aplicaciones web utilizando Python, HTML5 y SQL.</li>
             <li>Validación de códigos para una estructuración adecuada, seguridad y compatibilidad con diferentes buscadores, dispositivos o sistemas operativos.</li>
+            <button class="boton-detalles" onclick="ocultar2();">Ocultar detalles</button> 
         </ul>
     </section>
     <section class="habilidades" id="habilidades">
         <h3>HABILIDADES</h3>
         <br>
         <h5>Habilidades informáticas:</h5>
-        <ul>
+        <button class="boton-detalles" onclick="mostrar3();">Mostrar detalles</button>
+        <ul id="detalles-3">
             <li>Programación con JavaScript, CSS, HTML, C#, SQL.</li>
             <li>Conocimientos avanzados de Prestashop.</li>
             <li>Manejo de MySQL, MariaDB Mongodb.</li>
             <li>Desarrollo de aplicaciones móviles.</li>
             <li>Maquetación CSS.</li>
+            <button class="boton-detalles" onclick="ocultar3();">Ocultar detalles</button>
         </ul>
         <br>
         <h5>Idiomas:</h5>
-        <ul>
+        <button class="boton-detalles" onclick="mostrar4();">Mostrar detalles</button>
+        <ul id="detalles-4">
             <li>Español: nativo.</li>
             <li>Inglés: Certificate of Proficiency in English, equivalente al Nivel Superior C2 del Marco Común Europeo de Referencia para las Lenguas (MCER).</li>
             <li>Francés: Diplôme Approfondi de Langue Française, equivalente al Nivel Superior C2 del MCER..</li>
+            <button class="boton-detalles" onclick="ocultar4();">Ocultar detalles</button>
         </ul>
     </section>
-    <!-- <div class="volver-inicio"><a href="#encabezado">Volver</a></div> -->
     <a href="#encabezado" class="boton-volver"><i class="fa-solid fa-angles-up"></i></a>
+    <script src="/script.js"></script>
 </body>
 </html>

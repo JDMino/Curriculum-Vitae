@@ -92,6 +92,28 @@ img {
     border-radius: 5px;
 }
 
+#detalles {
+    display: none;
+}
+
+#detalles-2 {
+    display: none;
+}
+
+#detalles-3 {
+    display: none;
+}
+
+#detalles-4 {
+    display: none;
+}
+
+.boton-detalles:hover {
+    /*background: #ff96ad;*/
+    background: #ff3333;
+    box-shadow: 0 0 5px #ff3333, 0 0 25px #ff3333, 0 0 50px #ff3333, 0 0 200px #ff3333;
+}
+
 .boton-volver {
 	font-size: 20px;
 	color: black; 
